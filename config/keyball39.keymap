@@ -49,16 +49,25 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        migi_click {
+            bindings = <&mkp MB1>;
+            key-positions = <17 16>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             label = "QWRT";
             bindings = <
-&mt ESCAPE Q      &kp W           &kp E             &kp R            &kp T                                  &kp Y        &kp U        &kp I              &kp O            &kp P
-&kp A             &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F      &kp G                                  &kp H        &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &lt 3 MINUS
-&mt LEFT_SHIFT Z  &kp X           &kp C             &kp V            &kp B                                  &kp N        &kp M        &kp COMMA          &kp DOT          &kp SLASH
-&kp LCTRL         &kp LGUI        &kp LALT          &lt 6 LC(SPACE)  &lt 2 TAB  &lt 1 SPACE  &kp BACKSPACE  &lt 4 ENTER                                                   &kp RSHFT
+&mt ESCAPE Q      &kp W           &kp E             &kp R            &kp T                                  &kp Y        &kp U               &kp I              &kp O            &kp P
+&kp A             &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F      &kp G                                  &kp H        &mt LEFT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &lt 3 MINUS
+&mt LEFT_SHIFT Z  &kp X           &kp C             &kp V            &kp B                                  &kp N        &kp M               &kp COMMA          &kp DOT          &kp SLASH
+&kp LEFT_SHIFT    &kp LGUI        &kp LALT          &lt 6 LC(SPACE)  &lt 2 TAB  &lt 1 SPACE  &kp BACKSPACE  &lt 4 ENTER                                                          &kp RSHFT
             >;
         };
 
@@ -85,10 +94,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6    &kp N7     &kp N8     &kp N9  &kp N0
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &mo 5     &mkp LCLK  &mkp RCLK  &trans  &trans
-&none           &none           &none         &none      &none                   &mkp MB4  &mkp MB5   &none      &none   &none
-&none           &trans          &trans        &trans     &trans  &trans  &trans  &mo 2                                   &none
+&trans  &trans  &trans  &trans  &trans                  &kp LS(RC(TAB))  &kp RC(TAB)  &kp RC(W)  &trans  &trans
+&trans  &trans  &trans  &trans  &none                   &mo 5            &mkp LCLK    &mkp RCLK  &trans  &trans
+&none   &none   &none   &none   &none                   &mkp MB4         &mkp MB5     &none      &none   &none
+&none   &trans  &trans  &trans  &trans  &trans  &trans  &mo 2                                            &none
             >;
         };
 
