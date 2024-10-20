@@ -217,7 +217,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -282,3 +282,9 @@ layers:
 combos:
 - p: [17, 16]
   k: '&mkp MB1'
+- p: [17, 18]
+  k: '&mkp MB2'
+- p: [15, 17]
+  k: scroll
+- p: [16, 17, 18]
+  k: '&mkp MB3'
