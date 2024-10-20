@@ -54,22 +54,22 @@
 
         hidari_click {
             bindings = <&mkp MB1>;
-            key-positions = <17 16>;
+            key-positions = <16 15>;
         };
 
         migi_click {
             bindings = <&mkp MB2>;
-            key-positions = <17 18>;
+            key-positions = <17 16>;
         };
 
         scroll {
             bindings = <&mo 5>;
-            key-positions = <15 17>;
+            key-positions = <25 26>;
         };
 
         naka_click {
             bindings = <&mkp MB3>;
-            key-positions = <16 17 18>;
+            key-positions = <17 18>;
         };
     };
 
