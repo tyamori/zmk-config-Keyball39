@@ -322,12 +322,16 @@ layers:
 combos:
 - p: [16, 15]
   k: '&mkp MB1'
+  l: [default]
 - p: [17, 16]
   k: '&mkp MB2'
+  l: [default]
 - p: [25, 26]
   k: scroll
+  l: [default]
 - p: [17, 18]
   k: '&mkp MB3'
+  l: [default]
 - p: [38, 30]
   k: {t: default, h: toggle}
   l: [nothing]
