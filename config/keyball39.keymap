@@ -55,21 +55,25 @@
         hidari_click {
             bindings = <&mkp MB1>;
             key-positions = <16 15>;
+            layers = <0>;
         };
 
         migi_click {
             bindings = <&mkp MB2>;
             key-positions = <17 16>;
+            layers = <0>;
         };
 
         scroll {
             bindings = <&mo 5>;
             key-positions = <25 26>;
+            layers = <0>;
         };
 
         naka_click {
             bindings = <&mkp MB3>;
             key-positions = <17 18>;
+            layers = <0>;
         };
 
         to0 {
