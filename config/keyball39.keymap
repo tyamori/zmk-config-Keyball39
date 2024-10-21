@@ -71,6 +71,16 @@
             bindings = <&mkp MB3>;
             key-positions = <17 18>;
         };
+
+        to0 {
+            bindings = <&to 0>;
+            key-positions = <33 34 35 36 37>;
+        };
+
+        toNone {
+            bindings = <&to 7>;
+            key-positions = <30 38>;
+        };
     };
 
     keymap {
@@ -144,6 +154,17 @@
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
             >;
+        };
+
+        nothing_layer {
+            bindings = <
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none                &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none                       &none
+            >;
+
+            label = "none";
         };
     };
 };
