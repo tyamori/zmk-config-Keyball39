@@ -328,7 +328,9 @@ combos:
   k: scroll
 - p: [17, 18]
   k: '&mkp MB3'
-- p: [33, 34, 35, 36, 37]
+- p: [38, 30]
   k: {t: default, h: toggle}
+  l: [nothing]
 - p: [30, 38]
   k: {t: nothing, h: toggle}
+  l: [default]
