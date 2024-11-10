@@ -105,10 +105,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6   &kp N7            &kp N8         &kp N9            &kp N0
-&trans        &trans        &trans        &trans        &trans                      &kp SEMICOLON  &kp EQUAL         &kp GRAVE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans        &trans        &trans        &trans        &trans                      &kp COLON      &kp SINGLE_QUOTE  &kp BACKSLASH  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&trans        &trans        &trans        &trans        &trans  &trans  &kp DELETE  &trans                                                            &trans
+&kp NUMBER_1     &kp NUMBER_2          &kp NUMBER_3         &kp NUMBER_4             &kp N5                                     &kp NUMBER_6   &kp N7            &kp N8         &kp N9            &kp N0
+&kp EXCLAMATION  &mt LEFT_ALT AT_SIGN  &mt LEFT_SHIFT HASH  &mt LEFT_CONTROL DOLLAR  &kp PERCENT                                &kp SEMICOLON  &kp EQUAL         &kp GRAVE      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&mt LSHFT CARET  &kp AMPERSAND         &kp ASTERISK         &kp LEFT_PARENTHESIS     &kp RIGHT_PARENTHESIS                      &kp COLON      &kp SINGLE_QUOTE  &kp BACKSLASH  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&trans           &trans                &trans               &trans                   &trans                 &trans  &kp DELETE  &trans                                                            &trans
             >;
         };
 
