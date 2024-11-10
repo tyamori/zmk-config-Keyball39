@@ -50,21 +50,21 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '!'
+  - {t: '@', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '#', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: $, h: '$$mdi:apple-keyboard-control$$'}
+  - '%'
   - {t: ;, s: ':'}
   - {t: '=', s: +}
   - {t: '`', s: '~'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ^, h: '$$mdi:apple-keyboard-shift$$'}
+  - '&'
+  - '*'
+  - (
+  - )
   - ':'
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
